@@ -1,0 +1,356 @@
+﻿<Window x:Class="Stroke_1_Groundcontrol.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Stroke 1 Groundcontrol" Height="410" Width="610" MinWidth="610" MinHeight="410">
+    <Grid>
+        <TabControl>
+            <TabItem Name="tab_calculator" Header="Berechnungen">
+                <Grid Background="#FFE5E5E5" ClipToBounds="True" Margin="0">
+                    <StackPanel Margin="0,0,0,0" Orientation="Horizontal" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" CanHorizontallyScroll="True">
+                        <GroupBox Name="GroupBox_target" Header="Vorgabe" Margin="10,10,0,40" MinWidth="130">
+                            <StackPanel Margin="0,0,0,0" Orientation="Vertical">
+                                <RadioButton Name="Radio_hmax" Margin="5,10,5,5" Checked="RadioButtonCange">
+                                    <RadioButton.Content>
+                                        <TextBlock>
+                                            h
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                max
+                                            </Run>
+                                        </TextBlock>
+                                    </RadioButton.Content>
+                                </RadioButton>
+                                <RadioButton Name="Radio_V0" Margin="5,5,5,5" Checked="RadioButtonCange">
+                                    <RadioButton.Content>
+                                        <TextBlock>
+                                            V
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                0
+                                            </Run>
+                                        </TextBlock>
+                                    </RadioButton.Content>
+                                </RadioButton>
+                                <RadioButton Name="Radio_d0" Margin="5,5,5,5" Checked="RadioButtonCange">
+                                    <RadioButton.Content>
+                                        <TextBlock>
+                                            d
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                0
+                                            </Run>
+                                        </TextBlock>
+                                    </RadioButton.Content>
+                                </RadioButton>
+                                <Button Name="button_editConstants" Margin="5,15,5,5" Width="100" Click="button_editConstants_click">
+                                    <Button.Content>
+                                        <TextBlock TextWrapping="Wrap">
+                                            Konstanten Editieren
+                                        </TextBlock>
+                                    </Button.Content>
+                                </Button>
+                                <Button x:Name="button_reset_input" Margin="9,15,9,5" Width="100" Click="button_reset_input_Click">
+                                    <TextBlock TextWrapping="Wrap"><Run Text="Werte Zurücksetzen"/></TextBlock>
+                                </Button>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Name="GroupBox_defaultValue" Header="Vorgabewerte" Margin="10,10,0,40" MinWidth="130">
+                            <StackPanel Margin="0,0,0,0" Orientation="Vertical">
+                                <Label Name="label_hmax" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        <TextBlock>
+                                            h
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                max
+                                            </Run>
+                                            <Bold  BaselineAlignment="Subscript" FontSize="10" FontStyle="Italic" FontWeight="Normal" Foreground="#FF747474">
+                                                in km
+                                            </Bold>
+                                        </TextBlock>
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_hmax" IsEnabled="False" Margin="5,0,5,0"/>
+                                <Label Name="label_V0" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        <TextBlock>
+                                            V
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                0
+                                            </Run>
+                                            <Bold BaselineAlignment="Subscript" FontSize="10" FontStyle="Italic" FontWeight="Normal" Foreground="#FF747474">
+                                                in m³
+                                            </Bold>
+                                        </TextBlock>
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_V0" IsEnabled="False" Margin="5,0,5,0"/>
+                                <Label Name="label_d0" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        <TextBlock>
+                                            d
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                0
+                                            </Run>
+                                            <Bold BaselineAlignment="Subscript" FontSize="10" FontStyle="Italic" FontWeight="Normal" Foreground="#FF747474">
+                                                in m
+                                            </Bold>
+                                        </TextBlock>
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_d0" IsEnabled="False" Margin="5,0,5,0"/>
+                                <Label Name="label_T_akt" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        <TextBlock>
+                                            T
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                aktuell
+                                            </Run>
+                                            <Bold BaselineAlignment="Subscript" FontSize="10" FontStyle="Italic" FontWeight="Normal" Foreground="#FF747474">
+                                                in °C
+                                            </Bold>
+                                        </TextBlock>
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_T_akt" Margin="5,0,5,0"/>
+                                <Label Name="label_P_akt" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        <TextBlock>
+                                            p
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                aktuell
+                                            </Run>
+                                            <Bold BaselineAlignment="Subscript" FontSize="10" FontStyle="Italic" FontWeight="Normal" Foreground="#FF747474">
+                                                in pa
+                                            </Bold>
+                                        </TextBlock>
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_P_akt" Margin="5,0,5,0"/>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Name="GroupBox_conditions" Header="Bedingungen" Margin="10,10,0,40" MinWidth="130">
+                            <StackPanel Margin="0,0,0,0" Orientation="Vertical">
+                                <Label Name="label_m_Ballon" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        <TextBlock>
+                                            m
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                ballon
+                                            </Run>
+                                            <Bold BaselineAlignment="Subscript" FontSize="10" FontStyle="Italic" FontWeight="Normal" Foreground="#FF747474">
+                                                in kg
+                                            </Bold>
+                                        </TextBlock>
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_m_Ballon" Margin="5,0,5,0"/>
+                                <Label Name="label_m_last" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        <TextBlock>
+                                            m
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                Last
+                                            </Run>
+                                            <Bold BaselineAlignment="Subscript" FontSize="10" FontStyle="Italic" FontWeight="Normal" Foreground="#FF747474">
+                                                in kg
+                                            </Bold>
+                                        </TextBlock>
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_m_last" Margin="5,0,5,0"/>
+                                <!--
+                                <Label Name="label_aufstiegsgeschwindigkeit" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        <TextBlock>
+                                            v
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                0
+                                            </Run>
+                                            <Bold BaselineAlignment="Subscript" FontSize="10" FontStyle="Italic" FontWeight="Normal" Foreground="#FF747474">
+                                                in m/s²
+                                            </Bold>
+                                        </TextBlock>
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_aufstiegsgeschwindigkeit" Margin="5,0,5,0"/>
+                                -->
+                                <Label Name="label_hoehenschicht" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        Höhenschicht
+                                    </Label.Content>
+                                </Label>
+                                <ListBox Name="ListBox_Hoehenschicht" Height="70" Margin="5,0,5,5" BorderThickness="0,1,0,0" BorderBrush="#FFB6B6B6"/>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Name="GroupBox_result" Header="Ergebnisse" Margin="10,10,0,40" MinWidth="130">
+                            <StackPanel Margin="0,0,0,0" Orientation="Vertical">
+                                <Label Name="label_v0_calc" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        <TextBlock>
+                                            v
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                0 berechnet
+                                            </Run>
+                                            <Bold  BaselineAlignment="Subscript" FontSize="10" FontStyle="Italic" FontWeight="Normal" Foreground="#FF747474">
+                                                in m/s
+                                            </Bold>
+                                        </TextBlock>
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_v0_calc" IsEnabled="False" Margin="5,0,5,0"/>
+                                <!--
+                                <Label Name="label_F_rest" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        <TextBlock>
+                                            F
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                rest
+                                            </Run>
+                                            <Bold  BaselineAlignment="Subscript" FontSize="10" FontStyle="Italic" FontWeight="Normal" Foreground="#FF747474">
+                                                in N
+                                            </Bold>
+                                        </TextBlock>
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_F_rest" IsEnabled="False" Margin="5,0,5,0"/>
+                                -->
+                                <Label Name="label_Re" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        Re
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_Re" IsEnabled="False" Margin="5,0,5,0"/>
+                                <Label Name="label_cw" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        <TextBlock>
+                                            c
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                w
+                                            </Run>
+                                        </TextBlock>
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_cw" IsEnabled="False" Margin="5,0,5,0"/>
+                                <!-- <Label Name="label_Freib" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        <TextBlock>
+                                            F
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                Reib
+                                            </Run>
+                                            <Bold  BaselineAlignment="Subscript" FontSize="10" FontStyle="Italic" FontWeight="Normal" Foreground="#FF747474">
+                                                in N
+                                            </Bold>
+                                        </TextBlock>
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_Freib" IsEnabled="False" Margin="5,0,5,0"/>
+                                -->
+                                <Label Name="label_Fauftrieb_stat" Padding="5,2" Margin="5,5,5,1">
+                                    <Label.Content>
+                                        <TextBlock>
+                                            F
+                                            <Run BaselineAlignment="Subscript" FontSize="8">
+                                                Auftrieb Statisch
+                                            </Run>
+                                            <Bold  BaselineAlignment="Subscript" FontSize="10" FontStyle="Italic" FontWeight="Normal" Foreground="#FF747474">
+                                                in N
+                                            </Bold>
+                                        </TextBlock>
+                                    </Label.Content>
+                                </Label>
+                                <TextBox Name="TextBox_Fauftrieb_stat" IsEnabled="False" Margin="5,0,5,0"/>
+                            </StackPanel>
+                        </GroupBox>
+                    </StackPanel>
+                    <Button x:Name="button_refresh_calculate" Content="Berechnung Aktualisieren" HorizontalAlignment="Center" Margin="0,0,0,8" VerticalAlignment="Bottom" Height="24" Click="button_refresh_calculate_click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Name="tab_browser" Header="Browser">
+                <Grid Background="#FFE5E5E5">
+                    <!--<TextBox Name="Textbox_BrowserEntering" Height="22" VerticalAlignment="Top" Margin="3,2,188,0" KeyDown="Textbox_BrowserEntering_enter_new_page"/>
+                    -->
+                    <Button Name="button_BrowserRefresh" Content="Aktualisieren" HorizontalAlignment="Right" Margin="0,2,4,316" Width="90" Click="button_BrowserRefresh_Click" VerticalAlignment="Top"/>
+
+                    <WebBrowser Name="StockeBrowser" Margin="4,28,4,20" LoadCompleted="BrowserLoadingCompleted"/>
+                    <Label Name="label_BrowserStatus" Content="Loading" HorizontalAlignment="Left" Margin="2,0,0,0" VerticalAlignment="Bottom" Padding="4,0,5,2"/>
+                    <ComboBox x:Name="TextBoxBrowserPage" Margin="4,2,94,0" VerticalAlignment="Top" IsEditable="True" KeyDown="Textbox_BrowserEntering_enter_new_page" DropDownClosed="select_logged_page"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Name="tab_data" Header="Daten">
+                <Grid Background="#FFE5E5E5">
+                    <Button Name="button_Data_DelAll" Height="22" HorizontalAlignment="Left" Margin="4,4,0,0" VerticalAlignment="Top" Width="80">
+                        <Button.Content>
+                            <TextBlock TextWrapping="Wrap" TextAlignment="Left"> 
+                                alles Löschen
+                            </TextBlock>
+                        </Button.Content>
+                    </Button>
+                    <Button Name="button_Data_DelRow" Height="22" HorizontalAlignment="Left" Margin="4,30,0,0" VerticalAlignment="Top" Width="80">
+                        <Button.Content>
+                            <TextBlock TextWrapping="Wrap"> 
+                                Zeile Löschen
+                            </TextBlock>
+                        </Button.Content>
+                    </Button>
+                    <Button Name="button_Data_Refresh" Height="22" Content="Aktualisieren" HorizontalAlignment="Left" Margin="4,56,0,0" VerticalAlignment="Top" Width="80"/>
+                    <DataGrid Name="DataGrid_LiveData" Margin="88,4,0,0" IsEnabled="False" FrozenColumnCount="2"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Name="tab_readConvert" Header="Lesen u. Konvertieren">
+                <Grid Background="#FFE5E5E5">
+                    <Button Name="button_LogData_open" Height="22" HorizontalAlignment="Left" Margin="4,4,0,0" VerticalAlignment="Top" Width="80">
+                        <Button.Content>
+                            <TextBlock TextWrapping="Wrap" TextAlignment="Left"> 
+                                Datei öffnen...
+                            </TextBlock>
+                        </Button.Content>
+                    </Button>
+                    <Button Name="button_LogData_save" Height="22" HorizontalAlignment="Left" Margin="4,30,0,0" VerticalAlignment="Top" Width="80">
+                        <Button.Content>
+                            <TextBlock TextWrapping="Wrap"> 
+                                Speichern...
+                            </TextBlock>
+                        </Button.Content>
+                    </Button>
+                    <Button Name="button_LogData_DelRow" Height="22" Content="Zeile Löschen" HorizontalAlignment="Left" Margin="4,56,0,0" VerticalAlignment="Top" Width="80"/>
+                    <DataGrid Name="DataGrid_LoggedData" Margin="88,4,0,0" IsEnabled="False" FrozenColumnCount="2"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Name="tab_propertys" Header="Einstellungen">
+                <Grid Background="#FFE5E5E5">
+                    <StackPanel Orientation="Vertical">
+                        <Label Content="Sprache (Language)" Margin="4,0,4,0" Padding="0,5,0,0"/>
+                        <ComboBox Width="150" HorizontalAlignment="Left" Margin="4,0,0,0">
+                            <ComboBoxItem>
+                                Deutsch
+                            </ComboBoxItem>
+                        </ComboBox>
+                        <Label Content="Aktualisierungsintervall" Margin="4,0,4,0" Padding="0,5,0,0"/>
+                        <Border BorderThickness="1" BorderBrush="#FF6A6A6A" HorizontalAlignment="Left" Padding="0,0,5,0" Margin="5,0,0,0">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Minuten:" Margin="4,0,1,0" Padding="0,5,0,5"/>
+                                <TextBox Width="50" Margin="0,3,0,3"/>
+                                <Label Content="Sekunden:" Margin="10,0,1,0" Padding="0,5,0,5"/>
+                                <TextBox Width="50" Margin="0,3,0,3"/>
+                            </StackPanel>
+                        </Border>
+                        <Label Content="Datenquelle"/>
+                        <!--<CheckBox Content="CheckBox"/>-->
+                        <Grid HorizontalAlignment="Left">
+                            <CheckBox Content="LogDatei" VerticalAlignment="Center"/>
+                            <Button Content="Ändern" Margin="80,0,0,0" Width="80" HorizontalAlignment="Left"/>
+                            <Label Content="Pfad: C:/blubb/" Margin="167,0,0,0" HorizontalAlignment="Left" />
+                        </Grid>
+                        <Grid HorizontalAlignment="Left">
+                            <CheckBox Content="Internet" VerticalAlignment="Center"/>
+                            <Label VerticalAlignment="Center" Margin="80,0,0,0" Content="Internetseite" HorizontalAlignment="Left"/>
+                            <TextBox Margin="170,0,80,0" Width="200" Padding="0,0,0,0" HorizontalAlignment="Left" />
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

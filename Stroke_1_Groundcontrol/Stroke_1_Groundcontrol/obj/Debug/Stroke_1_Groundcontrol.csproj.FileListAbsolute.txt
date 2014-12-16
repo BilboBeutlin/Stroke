@@ -1,0 +1,17 @@
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\bin\Debug\Stroke_1_Groundcontrol.exe
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\bin\Debug\Stroke_1_Groundcontrol.pdb
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\bin\Debug\Stroke_1_ClassLibrary.dll
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\bin\Debug\Stroke_1_ClassLibrary.pdb
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\obj\Debug\Stroke_1_Groundcontrol.csprojResolveAssemblyReference.cache
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\obj\Debug\MainWindow.baml
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\obj\Debug\MainWindow.g.cs
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\obj\Debug\App.g.cs
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\obj\Debug\Stroke_1_Groundcontrol_MarkupCompile.cache
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\obj\Debug\Stroke_1_Groundcontrol.g.resources
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\obj\Debug\Stroke_1_Groundcontrol.Properties.Resources.resources
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\obj\Debug\Stroke_1_Groundcontrol.csproj.GenerateResource.Cache
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\obj\Debug\Stroke_1_Groundcontrol.exe
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\obj\Debug\Stroke_1_Groundcontrol.pdb
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\bin\Debug\Stroke_1_Groundcontrol.exe.config
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\obj\Debug\Edit_constans_Window.baml
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_Groundcontrol\obj\Debug\Edit_constans_Window.g.cs

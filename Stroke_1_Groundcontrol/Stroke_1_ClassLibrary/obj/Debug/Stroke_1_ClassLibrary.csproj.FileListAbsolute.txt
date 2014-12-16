@@ -1,0 +1,5 @@
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\bin\Debug\Stroke_1_ClassLibrary.dll
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\bin\Debug\Stroke_1_ClassLibrary.pdb
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\obj\Debug\Stroke_1_ClassLibrary.dll
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\obj\Debug\Stroke_1_ClassLibrary.pdb
+D:\C# Projekte\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\obj\Debug\Stroke_1_ClassLibrary.csprojResolveAssemblyReference.cache

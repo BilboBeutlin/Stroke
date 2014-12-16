@@ -1,0 +1,1235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xml:lang="de" lang="de"><head>
+<title>Roh-Pakete von KD4BFP-8 – Google Maps APRS</title>
+<meta name="lang" content="de">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="Roh-Pakete%20von%20KD4BFP-8%20%E2%80%93%20Google%20Maps%20APRS-Dateien/maps.css">
+
+<link rel="shortcut icon" href="http://aprs.fi/favicon.ico" type="image/x-icon">
+<link rel="shortcut" href="http://aprs.fi/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-startup-image" href="http://d1dhsh1i77j8ju.cloudfront.net/img/aprsfi-appleloading.png">
+<link rel="apple-touch-icon" href="http://d1dhsh1i77j8ju.cloudfront.net/img/aprsfi-applelogo-57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://d1dhsh1i77j8ju.cloudfront.net/img/aprsfi-applelogo-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://d1dhsh1i77j8ju.cloudfront.net/img/aprsfi-applelogo-114x114.png">
+<link rel="search" type="application/opensearchdescription+xml" title="Search aprs.fi" href="http://aprs.fi/w3c/opensearch.xml">
+<script src="Roh-Pakete%20von%20KD4BFP-8%20%E2%80%93%20Google%20Maps%20APRS-Dateien/gpt.js" type="text/javascript" async=""></script><script src="Roh-Pakete%20von%20KD4BFP-8%20%E2%80%93%20Google%20Maps%20APRS-Dateien/ga.js" async="" type="text/javascript"></script><script type="text/javascript">
+window.google_analytics_uacct = 'UA-84382-11';
+var _ga_start = new Date();
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount','UA-84382-11']);
+_gaq.push(['_setCustomVar',1,'User class','unregistered',1]);
+_gaq.push(['_setAllowAnchor',true],['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<script type="text/JavaScript">
+//<![CDATA[
+if (parent.frames.length && location.href.toLowerCase().indexOf("http://translate.google") != 0)
+	top.location.href = document.location;
+//]]>
+</script>
+
+
+<script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type="text/javascript">
+googletag.cmd.push(function() {
+googletag.defineSlot('/2637906/aprs-map-bottom', [250, 250], 'div-gpt-ad-1356108158202-0').addService(googletag.pubads());
+googletag.defineSlot('/2637906/aprs-map-top', [234, 60], 'div-gpt-ad-1356108158202-1').addService(googletag.pubads());
+googletag.defineSlot('/2637906/aprs-info-banner-top', [728, 90], 'div-gpt-ad-1356296834922-0').addService(googletag.pubads());
+googletag.defineSlot('/2637906/aprs-info-banner-bottom', [728, 90], 'div-gpt-ad-1356296727404-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+
+<script src="Roh-Pakete%20von%20KD4BFP-8%20%E2%80%93%20Google%20Maps%20APRS-Dateien/pubads_impl_54.js" type="text/javascript" async=""></script></head>
+<body style="background-color: #fff;" class="common">
+
+
+<div id="popup_cont" class="popup_container" style="display: none; z-index: 60; position: absolute; left: 60px; top: 30px;">
+	<div id="popup_handle" class="popup_handle">
+		<div id="popup_buttons" class="popup_buttons"><img src="Roh-Pakete%20von%20KD4BFP-8%20%E2%80%93%20Google%20Maps%20APRS-Dateien/close.gif" class="popup_closeicon" id="popup_closeicon" alt="close" onmousedown="popup_hide('popup');" height="16" width="16"></div>
+		<div id="popup_title" class="popup_title">t</div>
+	</div>
+	<div id="popup_content" class="popup_content popup_text"></div>
+</div>
+
+<div id="ttip" class="ttip"></div>
+
+<script type="text/JavaScript">
+//<![CDATA[
+analytics = 1;
+cookie_domain = 'aprs.fi';
+settings_cookie = 'mapssettings';
+//]]>
+</script>
+<script type="text/JavaScript" src="Roh-Pakete%20von%20KD4BFP-8%20%E2%80%93%20Google%20Maps%20APRS-Dateien/lib.js"></script><script type="text/JavaScript">
+//<![CDATA[
+sett(1417382918)//]]>
+</script>
+<div class="box"><div class="boxhdrtop">
+Roh-Pakete von KD4BFP-8
+- [<a href="http://aprs.fi/#%21call=KD4BFP-8">Kartenansicht</a>
+· <a href="http://aprs.fi/info/KD4BFP-8">Info</a>
+· <a rel="nofollow" href="http://aprs.fi/telemetry/KD4BFP-8">Telemetrie</a>
+· <a rel="nofollow" href="http://aprs.fi/weather/KD4BFP-8">Wetter</a>
+· <a rel="nofollow" href="http://aprs.fi/?c=raw&amp;call=KD4BFP-8">Rohdaten</a>
+· <a rel="nofollow" href="http://aprs.fi/?c=status&amp;call=KD4BFP-8">Status</a>
+· <a rel="nofollow" href="http://aprs.fi/?c=beacon&amp;call=KD4BFP-8">Baken</a>
+· <a rel="nofollow" href="http://aprs.fi/?c=message&amp;call=KD4BFP-8">Mitteilungen</a>
+· <a href="http://aprs.fi/bulletin/">Nachrichten</a>
+· <a href="http://aprs.fi/browse/">durchsuchen</a>
+· <a href="http://aprs.fi/moving/">bewegend</a>
+· <a rel="nofollow" href="https://aprs.fi/account/">Mein Konto</a>]
+
+</div><div class="boxshadetop"></div><div class="boxcnt">
+
+<div>
+<form name="browseform" method="get" action="?">
+<input name="c" value="raw" type="hidden">
+Quellrufzeichen: <input name="call" id="in" size="15" value="KD4BFP-8">
+<input value="Suchen" class="button button_default button_medium" type="submit">
+<a class="button button_default button_medium" href="http://aprs.fi/?c=raw&amp;limit=100">Löschen</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zeige: <select name="limit" onchange="document.browseform.submit()">
+<option value="5">5</option><option value="25">25</option><option value="50">50</option><option value="100" selected="selected">100</option><option value="300">300</option><option value="500">500</option><option value="1000">1000</option>
+</select>
+<select name="view" onchange="document.browseform.submit()"><option value="normal">Normal</option><option value="hex">Hexadezimal</option><option value="decoded" selected="selected">Dekodiert</option></select>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="browselinks"></span>
+</form>
+</div>
+
+<div>
+<p><span id="status">64 Pakete gefunden. Durchschnittlich 9265 Sekunden 
+zwischen Paketen während 592951 Sekunden. Das Nachschlagen dauerte 0.122
+ Sekunden.</span></p>
+<p>Rohe APRS-IS Pakete werden für 2 Tage gespeichert. Nicht unterstützte
+ und nicht analysierbare Pakete werden in rot angezeigt. Einige Formate 
+werden momentan nicht unterstützt. AIS-Daten werden hier nicht 
+angezeigt. Es ist möglich bei der Suche einen Platzhalter (*?) nach dem 
+Präfix zu verwenden.</p>
+</div>
+
+</div></div>
+
+<script type="text/JavaScript">
+//<![CDATA[
+focus('in');
+//]]>
+</script>
+
+
+<div class="browselist_data">
+<span class="raw_line">2014-11-23 20:30:26 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4PBS-3">KD4PBS-3*</a>,WIDE2,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=WR4AGC-5">WR4AGC-5</a>:&gt;NSL-33&nbsp;K&nbsp;&nbsp;4.02V&nbsp;+23,6C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: status<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;status: NSL-33&nbsp;K&nbsp;&nbsp;4.02V&nbsp;+23,6C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-23 20:31:01 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4PBS-3">KD4PBS-3*</a>,WIDE2,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=N4JJS-2">N4JJS-2</a>:&gt;NSL-33&nbsp;K&nbsp;&nbsp;4.02V&nbsp;+23,6C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: status<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;status: NSL-33&nbsp;K&nbsp;&nbsp;4.02V&nbsp;+23,6C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-23 20:31:29 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4PBS-3">KD4PBS-3*</a>,WIDE2,qAO,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KJ4SPG">KJ4SPG</a>:=3543.82N/07849.93WO000/000/A=<span class="raw_bin">&lt;0xf9&gt;</span>02318&nbsp;73&nbsp;to&nbsp;BG6QBV&nbsp;K&nbsp;&nbsp;4.01V&nbsp;+24,5C&nbsp;X</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.73033333333333 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -78.83216666666667 °<br>
+&nbsp;&nbsp;&nbsp;course: 0 °<br>
+&nbsp;&nbsp;&nbsp;speed: 0  km/h<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: A=<span class="raw_bin">&lt;0xf9&gt;</span>02318&nbsp;73&nbsp;to&nbsp;BG6QBV&nbsp;K&nbsp;&nbsp;4.01V&nbsp;+24,5C&nbsp;X<br>
+<br>
+<span class="raw_line">2014-11-23 20:33:31 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4PBS-3">KD4PBS-3*</a>,WIDE2,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=WR4AGC-5">WR4AGC-5</a>:=3543.82N/07849.93WO079/000/A=000505&nbsp;73&nbsp;to&nbsp;BG6QBV&nbsp;K&nbsp;&nbsp;4.00V&nbsp;+26,2C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.73033333333333 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -78.83216666666667 °<br>
+&nbsp;&nbsp;&nbsp;course: 79 °<br>
+&nbsp;&nbsp;&nbsp;speed: 0  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 153.924  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: 73&nbsp;to&nbsp;BG6QBV&nbsp;K&nbsp;&nbsp;4.00V&nbsp;+26,2C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-23 20:34:32 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4PBS-3">KD4PBS-3*</a>,WIDE2,qAO,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KJ4SPG">KJ4SPG</a>:=3543.81N/07849.93WO187/000/A=000501&nbsp;73&nbsp;to&nbsp;BG6QBV&nbsp;K&nbsp;&nbsp;4.02V&nbsp;+26,7C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.73016666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -78.83216666666667 °<br>
+&nbsp;&nbsp;&nbsp;course: 187 °<br>
+&nbsp;&nbsp;&nbsp;speed: 0  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 152.7048  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: 73&nbsp;to&nbsp;BG6QBV&nbsp;K&nbsp;&nbsp;4.02V&nbsp;+26,7C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-23 20:37:36 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4PBS-3">KD4PBS-3*</a>,WIDE2,qAO,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KJ4SPG">KJ4SPG</a>:=3543.81N/07849.93WO015/000/A=000495&nbsp;73&nbsp;to&nbsp;BG6QBV&nbsp;K&nbsp;&nbsp;4.01V&nbsp;+28,3C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.73016666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -78.83216666666667 °<br>
+&nbsp;&nbsp;&nbsp;course: 15 °<br>
+&nbsp;&nbsp;&nbsp;speed: 0  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 150.876  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: 73&nbsp;to&nbsp;BG6QBV&nbsp;K&nbsp;&nbsp;4.01V&nbsp;+28,3C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:27:42 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=NC4HC-15">NC4HC-15</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3533.03N/08238.54WO179/002/A=002129&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;4.02V&nbsp;+36,1C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.5505 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.64233333333334 °<br>
+&nbsp;&nbsp;&nbsp;course: 179 °<br>
+&nbsp;&nbsp;&nbsp;speed: 3.704  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 648.9192  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;4.02V&nbsp;+36,1C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:31:17 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=N4VDE-3">N4VDE-3*</a>,WIDE2,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W2JKT-3">W2JKT-3</a>:=3532.98N/08238.42WO078/007/A=003555&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;4.00V&nbsp;+37,8C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.54966666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.64033333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 78 °<br>
+&nbsp;&nbsp;&nbsp;speed: 12.964  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 1083.564  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;4.00V&nbsp;+37,8C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:32:08 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=NC4HC-15">NC4HC-15</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DEX">W4DEX</a>:=3532.98N/08238.42WO078/007/A=003555&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;4.00V&nbsp;+37,8C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.54966666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.64033333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 78 °<br>
+&nbsp;&nbsp;&nbsp;speed: 12.964  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 1083.564  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;4.00V&nbsp;+37,8C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:33:17 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KC4LU-3">KC4LU-3*</a>,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KC4LU-2">KC4LU-2</a>:=3533.12N/08238.14WO046/011/A=003820&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.99V&nbsp;+38,4C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.552 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.63566666666667 °<br>
+&nbsp;&nbsp;&nbsp;course: 46 °<br>
+&nbsp;&nbsp;&nbsp;speed: 20.372  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 1164.336  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.99V&nbsp;+38,4C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:34:17 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KC4LU-3">KC4LU-3*</a>,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KC4LU-2">KC4LU-2</a>:=3533.24N/08237.79WO080/023/A=004247&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.99V&nbsp;+38,7C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.554 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.62983333333334 °<br>
+&nbsp;&nbsp;&nbsp;course: 80 °<br>
+&nbsp;&nbsp;&nbsp;speed: 42.596  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 1294.4856  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.99V&nbsp;+38,7C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:35:57 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=NC4HC-15">NC4HC-15</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3533.28N/08237.37WO088/021/A=004415&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.99V&nbsp;+39,0C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.55466666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.62283333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 88 °<br>
+&nbsp;&nbsp;&nbsp;speed: 38.892  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 1345.692  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.99V&nbsp;+39,0C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:36:19 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KC4LU-3">KC4LU-3*</a>,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KC4LU-2">KC4LU-2</a>:=3533.28N/08236.90WO096/025/A=004489&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.99V&nbsp;+39,2C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.55466666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.61499999999999 °<br>
+&nbsp;&nbsp;&nbsp;course: 96 °<br>
+&nbsp;&nbsp;&nbsp;speed: 46.3  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 1368.2472  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.99V&nbsp;+39,2C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:37:19 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KC4LU-3">KC4LU-3*</a>,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KC4LU-2">KC4LU-2</a>:=3533.31N/08236.39WO086/025/A=004839&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.99V&nbsp;+39,5C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.55516666666666 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.6065 °<br>
+&nbsp;&nbsp;&nbsp;course: 86 °<br>
+&nbsp;&nbsp;&nbsp;speed: 46.3  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 1474.9272  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.99V&nbsp;+39,5C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:38:19 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=N4VDE-3">N4VDE-3*</a>,WIDE2,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W2JKT-3">W2JKT-3</a>:=3533.35N/08235.84WO077/026/A=005152&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.97V&nbsp;+39,6C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.55583333333333 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.59733333333334 °<br>
+&nbsp;&nbsp;&nbsp;course: 77 °<br>
+&nbsp;&nbsp;&nbsp;speed: 48.15199999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 1570.3296  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.97V&nbsp;+39,6C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:39:19 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KC4LU-3">KC4LU-3*</a>,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KC4LU-2">KC4LU-2</a>:=3533.46N/08235.28WO075/027/A=005542&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.97V&nbsp;+39,8C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.55766666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.58799999999999 °<br>
+&nbsp;&nbsp;&nbsp;course: 75 °<br>
+&nbsp;&nbsp;&nbsp;speed: 50.004  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 1689.2016  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.97V&nbsp;+39,8C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:40:19 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3533.57N/08234.67WO080/032/A=006171&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.98V&nbsp;+40,0C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.5595 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.57783333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 80 °<br>
+&nbsp;&nbsp;&nbsp;speed: 59.264  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 1880.9208  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.98V&nbsp;+40,0C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:41:19 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3533.66N/08233.97WO079/037/A=006859&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.96V&nbsp;+40,1C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.561 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.56616666666666 °<br>
+&nbsp;&nbsp;&nbsp;course: 79 °<br>
+&nbsp;&nbsp;&nbsp;speed: 68.524  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 2090.6232  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.96V&nbsp;+40,1C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:42:20 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3533.80N/08233.15WO075/041/A=007178&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.98V&nbsp;+40,3C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.56333333333333 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.55249999999999 °<br>
+&nbsp;&nbsp;&nbsp;course: 75 °<br>
+&nbsp;&nbsp;&nbsp;speed: 75.93199999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 2187.8544  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.98V&nbsp;+40,3C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:43:20 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3533.97N/08232.34WO075/041/A=007175&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.97V&nbsp;+40,5C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.56616666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.539 °<br>
+&nbsp;&nbsp;&nbsp;course: 75 °<br>
+&nbsp;&nbsp;&nbsp;speed: 75.93199999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 2186.94  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.97V&nbsp;+40,5C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:44:22 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3534.14N/08231.50WO079/042/A=007384&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.96V&nbsp;+40,7C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.569 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.52500000000001 °<br>
+&nbsp;&nbsp;&nbsp;course: 79 °<br>
+&nbsp;&nbsp;&nbsp;speed: 77.78399999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 2250.6432  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.96V&nbsp;+40,7C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:45:24 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DEX">W4DEX</a>:=3534.29N/08230.65WO078/037/A=007840&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.96V&nbsp;+41,0C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.5715 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.51083333333334 °<br>
+&nbsp;&nbsp;&nbsp;course: 78 °<br>
+&nbsp;&nbsp;&nbsp;speed: 68.524  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 2389.632  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.96V&nbsp;+41,0C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 16:45:42 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=NC4HC-15">NC4HC-15</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3534.14N/08231.50WO079/042/A=007384&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.96V&nbsp;+40,7C&nbsp;TF <b>[Duplicate position packet]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.569 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.52500000000001 °<br>
+&nbsp;&nbsp;&nbsp;course: 79 °<br>
+&nbsp;&nbsp;&nbsp;speed: 77.78399999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 2250.6432  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.96V&nbsp;+40,7C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:46:24 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3534.39N/08229.92WO077/037/A=008289&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.96V&nbsp;+41,3C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.57316666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.49866666666667 °<br>
+&nbsp;&nbsp;&nbsp;course: 77 °<br>
+&nbsp;&nbsp;&nbsp;speed: 68.524  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 2526.4872  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.96V&nbsp;+41,3C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:47:25 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3534.54N/08229.15WO080/037/A=008656&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.96V&nbsp;+41,6C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.57566666666666 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.48583333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 80 °<br>
+&nbsp;&nbsp;&nbsp;speed: 68.524  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 2638.3488  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.96V&nbsp;+41,6C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:48:25 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DEX">W4DEX</a>:=3534.67N/08228.38WO078/037/A=008934&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.95V&nbsp;+41,9C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.57783333333333 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.473 °<br>
+&nbsp;&nbsp;&nbsp;course: 78 °<br>
+&nbsp;&nbsp;&nbsp;speed: 68.524  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 2723.0832  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.95V&nbsp;+41,9C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:49:26 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3534.78N/08227.65WO080/035/A=009209&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.95V&nbsp;+42,1C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.57966666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.46083333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 80 °<br>
+&nbsp;&nbsp;&nbsp;speed: 64.81999999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 2806.9032  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.95V&nbsp;+42,1C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:50:28 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DEX">W4DEX</a>:=3534.86N/08226.95WO082/031/A=009555&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.95V&nbsp;+42,3C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.581 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.44916666666667 °<br>
+&nbsp;&nbsp;&nbsp;course: 82 °<br>
+&nbsp;&nbsp;&nbsp;speed: 57.412  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 2912.364  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.95V&nbsp;+42,3C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 16:50:30 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=NC4HC-15">NC4HC-15</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3534.78N/08227.65WO080/035/A=009209&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.95V&nbsp;+42,1C&nbsp;TF <b>[Rate limited (&lt; 5 sec)]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.57966666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.46083333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 80 °<br>
+&nbsp;&nbsp;&nbsp;speed: 64.81999999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 2806.9032  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.95V&nbsp;+42,1C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:51:16 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=NC4HC-15">NC4HC-15</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3534.86N/08226.95WO082/031/A=009555&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.95V&nbsp;+42,3C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.581 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.44916666666667 °<br>
+&nbsp;&nbsp;&nbsp;course: 82 °<br>
+&nbsp;&nbsp;&nbsp;speed: 57.412  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 2912.364  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.95V&nbsp;+42,3C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:51:29 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3534.96N/08226.31WO078/034/A=009934&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.95V&nbsp;+42,5C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.58266666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.4385 °<br>
+&nbsp;&nbsp;&nbsp;course: 78 °<br>
+&nbsp;&nbsp;&nbsp;speed: 62.968  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 3027.8832  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.95V&nbsp;+42,5C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:52:29 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3535.11N/08225.64WO072/035/A=010319&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,6C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.58516666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.42733333333334 °<br>
+&nbsp;&nbsp;&nbsp;course: 72 °<br>
+&nbsp;&nbsp;&nbsp;speed: 64.81999999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 3145.2312  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,6C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:53:29 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3535.31N/08224.88WO069/039/A=010673&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,7C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.5885 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.41466666666666 °<br>
+&nbsp;&nbsp;&nbsp;course: 69 °<br>
+&nbsp;&nbsp;&nbsp;speed: 72.22799999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 3253.1304  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,7C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:54:29 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3535.58N/08224.14WO065/041/A=011055&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,8C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.593 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.40233333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 65 °<br>
+&nbsp;&nbsp;&nbsp;speed: 75.93199999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 3369.564  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,8C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:55:29 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DEX">W4DEX</a>:=3535.85N/08223.33WO065/041/A=011437&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,8C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.5975 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.38883333333334 °<br>
+&nbsp;&nbsp;&nbsp;course: 65 °<br>
+&nbsp;&nbsp;&nbsp;speed: 75.93199999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 3485.9976  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,8C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 16:55:42 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=NC4HC-15">NC4HC-15</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3535.58N/08224.14WO065/041/A=011055&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,8C&nbsp;TF <b>[Duplicate position packet]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.593 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.40233333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 65 °<br>
+&nbsp;&nbsp;&nbsp;speed: 75.93199999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 3369.564  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,8C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 16:55:45 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4TL-3">W4TL-3</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4GR-10">W4GR-10</a>:=3535.31N/08224.88WO069/039/A=010673&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,7C&nbsp;TF <b>[Location changes too fast (adaptive limit)]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.5885 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.41466666666666 °<br>
+&nbsp;&nbsp;&nbsp;course: 69 °<br>
+&nbsp;&nbsp;&nbsp;speed: 72.22799999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 3253.1304  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,7C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:56:29 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KJ4CTD-3">KJ4CTD-3</a>:=3536.11N/08222.56WO068/042/A=011787&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,8C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.60183333333333 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.376 °<br>
+&nbsp;&nbsp;&nbsp;course: 68 °<br>
+&nbsp;&nbsp;&nbsp;speed: 77.78399999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 3592.6776  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,8C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 16:56:47 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4TL-3">W4TL-3*</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4GR-10">W4GR-10</a>:=3535.58N/08224.14WO065/041/A=011055&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,8C&nbsp;TF <b>[Location changes too fast (adaptive limit)]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.593 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.40233333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 65 °<br>
+&nbsp;&nbsp;&nbsp;speed: 75.93199999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 3369.564  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,8C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:57:29 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KJ4CTD-3">KJ4CTD-3</a>:=3536.35N/08221.74WO069/043/A=012167&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,9C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.60583333333334 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.36233333333334 °<br>
+&nbsp;&nbsp;&nbsp;course: 69 °<br>
+&nbsp;&nbsp;&nbsp;speed: 79.636  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 3708.5016  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,9C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 16:58:16 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4TL-3">W4TL-3*</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4GR-10">W4GR-10</a>:=3536.11N/08222.56WO068/042/A=011787&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,8C&nbsp;TF <b>[Duplicate position packet]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.60183333333333 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.376 °<br>
+&nbsp;&nbsp;&nbsp;course: 68 °<br>
+&nbsp;&nbsp;&nbsp;speed: 77.78399999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 3592.6776  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.94V&nbsp;+42,8C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 16:58:32 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KJ4CTD-3">KJ4CTD-3</a>:=3536.63N/08220.90WO065/041/A=012620&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,9C&nbsp;TF <b>[Location changes too fast (adaptive limit)]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.6105 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.34833333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 65 °<br>
+&nbsp;&nbsp;&nbsp;speed: 75.93199999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 3846.576  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,9C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 16:59:32 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KJ4CTD-3">KJ4CTD-3</a>:=3536.91N/08220.13WO066/040/A=013055&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,9C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.61516666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.3355 °<br>
+&nbsp;&nbsp;&nbsp;course: 66 °<br>
+&nbsp;&nbsp;&nbsp;speed: 74.08  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 3979.164  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,9C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 17:00:32 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KJ4CTD-3">KJ4CTD-3</a>:=3537.17N/08219.33WO066/042/A=013459&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.92V&nbsp;+42,9C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.6195 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.32216666666666 °<br>
+&nbsp;&nbsp;&nbsp;course: 66 °<br>
+&nbsp;&nbsp;&nbsp;speed: 77.78399999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4102.3032  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.92V&nbsp;+42,9C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 17:01:33 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KJ4CTD-3">KJ4CTD-3</a>:=3537.44N/08218.50WO067/044/A=013833&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,9C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.624 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.30833333333334 °<br>
+&nbsp;&nbsp;&nbsp;course: 67 °<br>
+&nbsp;&nbsp;&nbsp;speed: 81.488  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4216.298400000001  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,9C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 17:02:34 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KJ4CTD-3">KJ4CTD-3</a>:=3537.71N/08217.66WO070/043/A=014158&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,8C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.6285 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.29433333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 70 °<br>
+&nbsp;&nbsp;&nbsp;speed: 79.636  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4315.3584  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,8C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 17:02:47 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4TL-3">W4TL-3</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4GR-10">W4GR-10</a>:=3537.17N/08219.33WO066/042/A=013459&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.92V&nbsp;+42,9C&nbsp;TF <b>[Location changes too fast (adaptive limit)]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.6195 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.32216666666666 °<br>
+&nbsp;&nbsp;&nbsp;course: 66 °<br>
+&nbsp;&nbsp;&nbsp;speed: 77.78399999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4102.3032  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.92V&nbsp;+42,9C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 17:03:35 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=N4YH-10">N4YH-10</a>:=3537.96N/08216.81WO068/042/A=014502&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.92V&nbsp;+42,6C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.63266666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.28016666666667 °<br>
+&nbsp;&nbsp;&nbsp;course: 68 °<br>
+&nbsp;&nbsp;&nbsp;speed: 77.78399999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4420.2096  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.92V&nbsp;+42,6C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 17:04:21 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4TL-3">W4TL-3*</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4GR-10">W4GR-10</a>:=3537.44N/08218.50WO067/044/A=013833&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,9C&nbsp;TF <b>[Duplicate position packet]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.624 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.30833333333334 °<br>
+&nbsp;&nbsp;&nbsp;course: 67 °<br>
+&nbsp;&nbsp;&nbsp;speed: 81.488  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4216.298400000001  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,9C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 17:04:37 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DEX">W4DEX</a>:=3538.22N/08215.93WO069/045/A=014879&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,5C&nbsp;TF <b>[Location changes too fast (adaptive limit)]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.637 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.2655 °<br>
+&nbsp;&nbsp;&nbsp;course: 69 °<br>
+&nbsp;&nbsp;&nbsp;speed: 83.33999999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4535.1192  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,5C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 17:04:42 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4TL-3">W4TL-3</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4GR-10">W4GR-10</a>:=3537.71N/08217.66WO070/043/A=014158&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,8C&nbsp;TF <b>[Location changes too fast (adaptive limit)]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.6285 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.29433333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 70 °<br>
+&nbsp;&nbsp;&nbsp;speed: 79.636  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4315.3584  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.93V&nbsp;+42,8C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 17:05:38 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=N4YH-10">N4YH-10</a>:=3538.49N/08215.06WO070/044/A=015258&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,3C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.6415 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.251 °<br>
+&nbsp;&nbsp;&nbsp;course: 70 °<br>
+&nbsp;&nbsp;&nbsp;speed: 81.488  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4650.6384  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,3C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 17:05:47 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4TL-3">W4TL-3</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4GR-10">W4GR-10</a>:=3537.96N/08216.81WO068/042/A=014502&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.92V&nbsp;+42,6C&nbsp;TF <b>[Location changes too fast (adaptive limit)]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.63266666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.28016666666667 °<br>
+&nbsp;&nbsp;&nbsp;course: 68 °<br>
+&nbsp;&nbsp;&nbsp;speed: 77.78399999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4420.2096  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.92V&nbsp;+42,6C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 17:06:36 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=EGLNST">EGLNST</a>,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=NC4HC-15">NC4HC-15*</a>,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3538.49N/08215.06WO070/044/A=015258&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,3C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.6415 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.251 °<br>
+&nbsp;&nbsp;&nbsp;course: 70 °<br>
+&nbsp;&nbsp;&nbsp;speed: 81.488  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4650.6384  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,3C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 17:06:39 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DEX">W4DEX</a>:=3538.72N/08214.18WO071/044/A=015658&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,2C&nbsp;TF <b>[Rate limited (&lt; 5 sec)]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.64533333333333 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.23633333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 71 °<br>
+&nbsp;&nbsp;&nbsp;speed: 81.488  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4772.5584  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,2C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 17:07:12 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4TL-3">W4TL-3*</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4GR-10">W4GR-10</a>:=3538.22N/08215.93WO069/045/A=014879&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,5C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.637 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.2655 °<br>
+&nbsp;&nbsp;&nbsp;course: 69 °<br>
+&nbsp;&nbsp;&nbsp;speed: 83.33999999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4535.1192  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,5C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 17:07:40 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KJ4CTD-3">KJ4CTD-3</a>:=3538.95N/08213.32WO070/044/A=016020&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,1C&nbsp;TF <b>[Location changes too fast (adaptive limit)]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.64916666666667 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.22199999999999 °<br>
+&nbsp;&nbsp;&nbsp;course: 70 °<br>
+&nbsp;&nbsp;&nbsp;speed: 81.488  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4882.896000000001  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,1C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 17:08:42 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=N4YH-10">N4YH-10</a>:=3539.18N/08212.42WO071/044/A=016332&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,0C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.653 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.20699999999999 °<br>
+&nbsp;&nbsp;&nbsp;course: 71 °<br>
+&nbsp;&nbsp;&nbsp;speed: 81.488  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 4977.993600000001  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+42,0C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 17:09:43 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=AL0I">AL0I</a>:=3539.41N/08211.53WO072/047/A=016614&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+41,8C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.65683333333333 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.19216666666667 °<br>
+&nbsp;&nbsp;&nbsp;course: 72 °<br>
+&nbsp;&nbsp;&nbsp;speed: 87.044  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 5063.947200000001  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+41,8C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 17:10:44 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KC4LU-2">KC4LU-2</a>:=3539.64N/08210.59WO074/048/A=016908&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+41,6C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.66066666666666 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.1765 °<br>
+&nbsp;&nbsp;&nbsp;course: 74 °<br>
+&nbsp;&nbsp;&nbsp;speed: 88.89599999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 5153.5584  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+41,6C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 17:10:46 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=EGLNST">EGLNST</a>,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=NC4HC-15">NC4HC-15*</a>,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3539.41N/08211.53WO072/047/A=016614&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+41,8C&nbsp;TF <b>[Rate limited (&lt; 5 sec)]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.65683333333333 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.19216666666667 °<br>
+&nbsp;&nbsp;&nbsp;course: 72 °<br>
+&nbsp;&nbsp;&nbsp;speed: 87.044  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 5063.947200000001  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+41,8C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 17:11:44 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,WIDE2-1,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DEX">W4DEX</a>:=3539.82N/08209.65WO077/046/A=017222&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.90V&nbsp;+41,5C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.66366666666666 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.16083333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 77 °<br>
+&nbsp;&nbsp;&nbsp;speed: 85.19199999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 5249.265600000001  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.90V&nbsp;+41,5C&nbsp;TF<br>
+<br>
+<span class="raw_line_err">2014-11-30 17:11:54 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=NC4HC-15">NC4HC-15</a>,WIDE2*,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3539.64N/08210.59WO074/048/A=016908&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+41,6C&nbsp;TF <b>[Location changes too fast (adaptive limit)]</b></span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.66066666666666 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.1765 °<br>
+&nbsp;&nbsp;&nbsp;course: 74 °<br>
+&nbsp;&nbsp;&nbsp;speed: 88.89599999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 5153.5584  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.91V&nbsp;+41,6C&nbsp;TF<br>
+<br>
+<span class="raw_line">2014-11-30 17:12:57 CET: <b><a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=KD4BFP-8">KD4BFP-8</a></b>&gt;APAVT5,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=EGLNST">EGLNST</a>,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=NC4HC-15">NC4HC-15*</a>,qAR,<a href="http://aprs.fi/?c=raw&amp;limit=&amp;call=W4DJW">W4DJW</a>:=3539.82N/08209.65WO077/046/A=017222&nbsp;NSL-33&nbsp;K&nbsp;&nbsp;3.90V&nbsp;+41,5C&nbsp;TF</span><br>
+&nbsp;&nbsp;&nbsp;type: location<br>
+&nbsp;&nbsp;&nbsp;format: uncompressed<br>
+&nbsp;&nbsp;&nbsp;srccallsign: KD4BFP-8<br>
+&nbsp;&nbsp;&nbsp;dstcallsign: APAVT5<br>
+&nbsp;&nbsp;&nbsp;latitude: 35.66366666666666 °<br>
+&nbsp;&nbsp;&nbsp;longitude: -82.16083333333333 °<br>
+&nbsp;&nbsp;&nbsp;course: 77 °<br>
+&nbsp;&nbsp;&nbsp;speed: 85.19199999999999  km/h<br>
+&nbsp;&nbsp;&nbsp;altitude: 5249.265600000001  m<br>
+&nbsp;&nbsp;&nbsp;symboltable: /<br>
+&nbsp;&nbsp;&nbsp;symbolcode: O<br>
+&nbsp;&nbsp;&nbsp;messaging: 1<br>
+&nbsp;&nbsp;&nbsp;posresolution: 18.52  m<br>
+&nbsp;&nbsp;&nbsp;posambiguity: 0<br>
+&nbsp;&nbsp;&nbsp;comment: NSL-33&nbsp;K&nbsp;&nbsp;3.90V&nbsp;+41,5C&nbsp;TF<br>
+<br>
+</div><script type="text/JavaScript">
+//<![CDATA[
+upd_el('status', '64 Pakete gefunden. Durchschnittlich 9265 Sekunden zwischen Paketen während 592951 Sekunden. Das Nachschlagen dauerte 0.122 Sekunden.');
+upd_el('browselinks', '');
+//]]>
+</script><iframe style="visibility: hidden; display: none;" src="Roh-Pakete%20von%20KD4BFP-8%20%E2%80%93%20Google%20Maps%20APRS-Dateien/container.htm"></iframe>
+<div class="text indent" style="margin: 5px;"></div>
+<div class="linkfooter">
+<a href="http://wiki.ham.fi/Aprs.fi_user_guide?setlang=en">User guide</a>
+· <a href="http://aprs.fi/page/faq">FAQ</a>
+· <a href="http://blog.aprs.fi/">Blog</a>
+· <a href="https://groups.google.com/forum/#%21forum/aprsfi">Diskussionsgruppe</a>
+· <a href="http://aprs.fi/page/linking">Link zu aprs.fi</a>
+· <a href="http://aprs.fi/page/ais_sites">AIS Sites</a>
+· <a href="http://aprs.fi/service-status/">Status des Servers</a>
+· <a href="http://aprs.fi/stats/daily">Datenbank-Statistiken</a>
+· <a href="http://aprs.fi/page/advertising">Advertising on aprs.fi</a>
+· <a href="http://aprs.fi/page/about_technical">Technische Details</a>
+· <a href="http://aprs.fi/page/api">API</a>
+· <a href="http://aprs.fi/page/changelog">Änderungen</a>
+· <a href="http://aprs.fi/page/todo">Geplante Änderungen</a>
+· <a href="http://aprs.fi/page/credits">Dank an</a>
+· <a href="http://aprs.fi/page/tos">Nutzungsbedingungen</a>
+
+</div>
+
+
+
+</body></html>
