@@ -25,7 +25,7 @@ namespace Stroke_1_Groundcontrol
 
 
 //_____________ zum Löschen
-        HtmlReader blubb = new HtmlReader("file:///C:/Users/Dennis/Dropbox/Mechatronik%20Projekt/Team%202%20-%20Dennis/Internetseite%20mit%20beispiel-Rohpacketen/Rohpackete_decodiert/Roh-Pakete%20von%20KD4BFP-8%20%E2%80%93%20Google%20Maps%20APRS.htm");
+        //HtmlReader blubb = new HtmlReader("file:///C:/Users/Dennis/Dropbox/Mechatronik%20Projekt/Team%202%20-%20Dennis/Internetseite%20mit%20beispiel-Rohpacketen/Rohpackete_decodiert/Roh-Pakete%20von%20KD4BFP-8%20%E2%80%93%20Google%20Maps%20APRS.htm");
         
 
         
