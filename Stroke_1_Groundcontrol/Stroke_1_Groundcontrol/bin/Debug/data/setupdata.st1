@@ -1,0 +1,16 @@
+###### Setup ######
+
+# LanguageNr #
+1
+# Pfad to Logfile #
+none
+# Internetseite mit Daten #
+none
+# Aktualisierungszeit, minuten #
+2
+# Aktualisierungszeit, Sekunden #
+0
+# Lesen Logdaten #
+False
+# Lesen vom Internet #
+False

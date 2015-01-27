@@ -37,6 +37,11 @@ namespace Stroke_1_ClassLibrary
     {
         List<LiveDatum> Datalist;
 
+        public LiveData()
+        {
+            this.Datalist = new List<LiveDatum>();
+        }
+
         public void AddData(LiveDatum datum)
         {
             Datalist.Add(datum);

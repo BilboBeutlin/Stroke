@@ -21,12 +21,10 @@ namespace Stroke_1_Groundcontrol
         //Globale Variablen
         Calculator calculator;
         Browserverlauf browserlog;
+        HtmlReader html_reader;
+        setup allSetup;
 
 
-
-//_____________ zum Löschen
-        //HtmlReader blubb = new HtmlReader("file:///C:/Users/Dennis/Dropbox/Mechatronik%20Projekt/Team%202%20-%20Dennis/Internetseite%20mit%20beispiel-Rohpacketen/Rohpackete_decodiert/Roh-Pakete%20von%20KD4BFP-8%20%E2%80%93%20Google%20Maps%20APRS.htm");
-//_____________bis Hier
 
         /// <summary>
         /// Konstruktor des Hauptfensters
@@ -35,10 +33,12 @@ namespace Stroke_1_Groundcontrol
         {
             InitializeComponent();
             this.calculator = new Calculator("standart");
+            this.allSetup = new setup("standart");
             this.FillAllBoxes();
             browserlog = new Browserverlauf(30);
             RefteshBrowserloglist();
             this.label_BrowserStatus.Content = "";
+            
 
         }
 
@@ -75,7 +75,7 @@ namespace Stroke_1_Groundcontrol
                 this.ListBox_Hoehenschicht.Items.Add(this.calculator.constants.contour_level[i]);
             }
         }
-
+        
         /// <summary>
         /// Button -> Neu berechnen mit den Angegebenen Werten
         /// </summary>

@@ -8,3 +8,8 @@ C:\Users\Henry.homelande\Documents\GitHub\Stroke\Stroke_1_Groundcontrol\Stroke_1
 C:\Users\Henry.homelande\Documents\GitHub\Stroke\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\obj\Debug\Stroke_1_ClassLibrary.csprojResolveAssemblyReference.cache
 C:\Users\Henry.homelande\Documents\GitHub\Stroke\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\obj\Debug\Stroke_1_ClassLibrary.dll
 C:\Users\Henry.homelande\Documents\GitHub\Stroke\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\obj\Debug\Stroke_1_ClassLibrary.pdb
+C:\Users\Dennis\Documents\GitHub\Stroke\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\bin\Debug\Stroke_1_ClassLibrary.dll
+C:\Users\Dennis\Documents\GitHub\Stroke\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\bin\Debug\Stroke_1_ClassLibrary.pdb
+C:\Users\Dennis\Documents\GitHub\Stroke\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\obj\Debug\Stroke_1_ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Dennis\Documents\GitHub\Stroke\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\obj\Debug\Stroke_1_ClassLibrary.dll
+C:\Users\Dennis\Documents\GitHub\Stroke\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\obj\Debug\Stroke_1_ClassLibrary.pdb
