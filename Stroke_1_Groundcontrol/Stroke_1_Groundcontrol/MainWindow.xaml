@@ -292,11 +292,17 @@
                         </Button.Content>
                     </Button>
                     <Button Name="button_Data_Refresh" Height="22" Content="Aktualisieren" HorizontalAlignment="Left" Margin="4,56,0,0" VerticalAlignment="Top" Width="80"/>
-                    <DataGrid Name="DataGrid_LiveData" Margin="88,4,0,0" IsEnabled="False" FrozenColumnCount="2"/>
+                    <DataGrid Name="DataGrid_LiveData" Margin="88,4,0,0" FrozenColumnCount="3" CanUserSortColumns="False">
+                        <DataGrid.Columns>
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <RadioButton x:Name="Radiobutton_ShowInternet" Content="Internet" HorizontalAlignment="Left" Margin="4,83,0,0" VerticalAlignment="Top" Checked="Radiobutton_Schowdata_Cange" IsChecked="True" />
+                    <RadioButton x:Name="Radiobutton_ShowLog" Content="Log" HorizontalAlignment="Left" Margin="4,103,0,0" VerticalAlignment="Top" Checked="Radiobutton_Schowdata_Cange"/>
 
                 </Grid>
             </TabItem>
-            <TabItem Name="tab_readConvert" Header="Lesen u. Konvertieren">
+            <TabItem Name="tab_readConvert" Header="Lesen u. Konvertieren" Visibility="Collapsed">
                 <Grid Background="#FFE5E5E5">
                     <Button Name="button_LogData_open" Height="22" HorizontalAlignment="Left" Margin="4,4,0,0" VerticalAlignment="Top" Width="80">
                         <Button.Content>
@@ -329,23 +335,26 @@
                         <Label Content="Aktualisierungsintervall" Margin="4,0,4,0" Padding="0,5,0,0"/>
                         <Border BorderThickness="1" BorderBrush="#FF6A6A6A" HorizontalAlignment="Left" Padding="0,0,5,0" Margin="5,0,0,0">
                             <StackPanel Orientation="Horizontal">
-                                <Label Content="Minuten:" Margin="4,0,1,0" Padding="0,5,0,5"/>
-                                <TextBox Width="50" Margin="0,3,0,3"/>
-                                <Label Content="Sekunden:" Margin="10,0,1,0" Padding="0,5,0,5"/>
-                                <TextBox Width="50" Margin="0,3,0,3"/>
+                                <Label x:Name="Label_description_MinutesTo_refresh" Content="Minuten:" Margin="4,0,1,0" Padding="0,5,0,5"/>
+                                <TextBox x:Name="TextBox_RefreshMinute" Width="50" Margin="0,3,0,3"/>
+                                <Label x:Name="Label_description_SecoundsTo_refresh" Content="Sekunden:" Margin="10,0,1,0" Padding="0,5,0,5"/>
+                                <TextBox x:Name="TextBox_RefreshSecounds" Width="50" Margin="0,3,0,3"/>
+                                <Button x:Name="Button_CheckEditSetup" Content="Übernehmen" Width="100" Height="22" Margin="5,5,5,5" Click="CkeckEditSetup" HorizontalAlignment="Left"/>
                             </StackPanel>
                         </Border>
                         <Label Content="Datenquelle"/>
-                        <!--<CheckBox Content="CheckBox"/>-->
                         <Grid HorizontalAlignment="Left">
-                            <CheckBox Content="LogDatei" VerticalAlignment="Center"/>
-                            <Button Content="Ändern" Margin="80,0,0,0" Width="80" HorizontalAlignment="Left"/>
-                            <Label Content="Pfad: C:/blubb/" Margin="167,0,0,0" HorizontalAlignment="Left" />
+                            <CheckBox x:Name="CheckBox_ReadFromLog" Content="LogDatei" VerticalAlignment="Center" Click="Cahnge_CheckBox_toRead" />
+                            <Button x:Name="Button_ChangeLogpfath" Content="Ändern" Margin="80,0,0,0" Width="80" HorizontalAlignment="Left" Click="bottonEvent_ChangeLogpfath"/>
+                            <Label Content="Pfad: " Margin="167,0,0,0" HorizontalAlignment="Left" />
+                            <Label x:Name="Label_LogfileToRead" Content="C:/blubb/" Margin="199,0,0,0" HorizontalAlignment="Left" />
                         </Grid>
                         <Grid HorizontalAlignment="Left">
-                            <CheckBox Content="Internet" VerticalAlignment="Center"/>
+                            <CheckBox x:Name="Checkbox_ReadFromInternet" Content="Internet" VerticalAlignment="Center" Checked="Cahnge_CheckBox_toRead" Click="Cahnge_CheckBox_toRead"/>
                             <Label VerticalAlignment="Center" Margin="80,0,0,0" Content="Internetseite" HorizontalAlignment="Left"/>
-                            <TextBox Margin="170,0,80,0" Width="200" Padding="0,0,0,0" HorizontalAlignment="Left" />
+                            <TextBox x:Name="TextBox_HtmlToRead" Margin="170,0,0,-0.2" Width="241" Padding="0,0,0,0" HorizontalAlignment="Left" />
+                            <Button x:Name="Button_CheckEditSetup_Url"  Content="Übernehmen" HorizontalAlignment="Left" Margin="416,5,5,5" VerticalAlignment="Top" Width="75" Click="Button_Click_CheckEditSetup_Url"/>
+
                         </Grid>
                     </StackPanel>
                 </Grid>

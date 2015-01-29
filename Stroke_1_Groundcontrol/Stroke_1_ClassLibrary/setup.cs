@@ -86,7 +86,7 @@ namespace Stroke_1_ClassLibrary
             } 
         }
 
-        private void save()
+        public void save()
         {
             List<string> towrite = new List<string>();
             towrite.Add("###### Setup ######");

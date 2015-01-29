@@ -39,6 +39,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aprs.cs" />
     <Compile Include="Browserverlauf.cs" />
     <Compile Include="Data.cs" />
     <Compile Include="Calculator.cs" />

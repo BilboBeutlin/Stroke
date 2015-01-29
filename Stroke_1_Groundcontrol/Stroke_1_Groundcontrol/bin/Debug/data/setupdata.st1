@@ -3,14 +3,14 @@
 # LanguageNr #
 1
 # Pfad to Logfile #
-none
+C:\Users\Dennis\Desktop\decode_aprs_short_henry\decode_aprs_short\uiview.TXT
 # Internetseite mit Daten #
-none
+https://dl.dropboxusercontent.com/u/45746485/Roh-Pakete%20von%20KD4BFP-8%20%E2%80%93%20Google%20Maps%20APRS.htm
 # Aktualisierungszeit, minuten #
-2
-# Aktualisierungszeit, Sekunden #
 0
+# Aktualisierungszeit, Sekunden #
+15
 # Lesen Logdaten #
 True
 # Lesen vom Internet #
-False
+True

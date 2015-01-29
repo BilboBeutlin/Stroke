@@ -13,8 +13,6 @@ namespace Stroke_1_ClassLibrary
     public class HtmlReader
     {
         public LiveData _data;
-        string Link;
-        string htmlCode;
 
         /// <summary>
         /// Ist der Konstruktor der Klasse HtmlReader. Beim Erstellen wird erstmalig die Seite auf Daten geprüft.
@@ -27,7 +25,7 @@ namespace Stroke_1_ClassLibrary
         public HtmlReader(string Link)
         {
             string[] DataText;
-            _data = new LiveData();
+            _data = new LiveData("none");
             try
             {
                 HttpWebRequest myRequest = (HttpWebRequest)WebRequest.Create(Link);
@@ -38,23 +36,25 @@ namespace Stroke_1_ClassLibrary
                 DataText = result.Split('\n');
                 sr.Close();
                 myResponse.Close();
+                Interprete(DataText);
             }
             catch (Exception)
             {
 
                 MessageBox.Show("internetseite konnte nicht geöffnet werden,\nBitte überprüfen Sie die Internetverbindung\nund die Einstellungen im Programm");
+                OpenFileDialog dialog = new OpenFileDialog();
+                if (dialog.ShowDialog() == true)
+                {
+
+                    string pfad = dialog.FileName;
+                    File.Copy(pfad, "temp.txt", true);
+                    DataText = File.ReadAllLines("temp.txt");
+                    Interprete(DataText);
+                }
             }
             
 
-            OpenFileDialog dialog = new OpenFileDialog();
-            if (dialog.ShowDialog() == true)
-            {
-
-                string pfad = dialog.FileName;
-                File.Copy(pfad, "temp.txt", true);
-                DataText = File.ReadAllLines("temp.txt");
-                Interprete(DataText);
-            }
+            
             //Interprete(DataText);
         }
 
@@ -101,6 +101,7 @@ namespace Stroke_1_ClassLibrary
 
             for (int i = 138; i < data.Length; i++)
             {
+                //finden eines Datums
                 int datefound = data[i].IndexOf("<span class=\"raw_line\">");
                 if (datefound > -1)
                 {
@@ -120,6 +121,7 @@ namespace Stroke_1_ClassLibrary
 
                     detection = 1;
                 }
+                // finden eines Längengrades
                 int latitudeFound = data[i].IndexOf("latitude: ");
                 if (latitudeFound > -1)
                 {
@@ -130,6 +132,7 @@ namespace Stroke_1_ClassLibrary
 
                     detection++;
                 }
+                // finden eines Breitengrades
                 int longitudeFound = data[i].IndexOf("longitude: ");
                 if (longitudeFound > -1)
                 {
@@ -140,6 +143,7 @@ namespace Stroke_1_ClassLibrary
 
                     detection++;
                 }
+                // finden einer höhe
                 int altitudeFound = data[i].IndexOf("altitude: ");
                 if (altitudeFound > -1)
                 {
@@ -150,6 +154,7 @@ namespace Stroke_1_ClassLibrary
 
                     detection++;
                 }
+                // erforderliche elemente gefunden
                 if (detection == 4)
                 {
                     LiveDatum tempdate = new LiveDatum();
@@ -160,19 +165,7 @@ namespace Stroke_1_ClassLibrary
                     _data.AddData(tempdate);
                     detection = 0;
                 }
-                     
             }
-        }
-
-        /// <summary>
-        /// Internetseite (Link) wird erneut geladen und auf neue Daten geprüft. 
-        /// Sind neue Daten enthalten, so werden sie der Variable "data" hinzugefügt.
-        /// Webpage will be loaded again and checked for new data. If there are new Data, 
-        /// they will be added to the variable "data".
-        /// </summary>
-        public void refresh()
-        {
-
         }
 
     }
