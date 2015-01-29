@@ -72,6 +72,13 @@ namespace Stroke_1_ClassLibrary
             try
             {
                 string[] readedLines = File.ReadAllLines(_SetupPfad);
+                this._LanguageNr = Convert.ToInt32(readedLines[3]);
+                this.PfathToLogfile = readedLines[5];
+                this.Link = readedLines[7];
+                this.refreshMinute = Convert.ToInt32(readedLines[9]);
+                this.refreshSecounds = Convert.ToInt32(readedLines[11]);
+                this.readLog = Convert.ToBoolean(readedLines[13]);
+                this.readHtml = Convert.ToBoolean(readedLines[15]);
             }
             catch (Exception)
             {

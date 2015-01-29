@@ -11,6 +11,6 @@ none
 # Aktualisierungszeit, Sekunden #
 0
 # Lesen Logdaten #
-False
+True
 # Lesen vom Internet #
 False
