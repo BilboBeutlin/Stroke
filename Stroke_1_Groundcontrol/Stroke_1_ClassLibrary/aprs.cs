@@ -40,36 +40,44 @@ namespace Stroke_1_ClassLibrary
             system_date = System.DateTime.SpecifyKind(system_date, DateTimeKind.Utc);  // System Datum+Uhrzeit  in UTC    
             string sytem_date_str = system_date.ToUniversalTime().ToString("u");      // System Datum+Uhrzeit Konvertieren in "Universelles, sortierbares Datums-/Zeitmuster."
             sytem_date_str = sytem_date_str.Remove(sytem_date_str.Length - 1);         // Das letzte Zeichen "Z" aus dem Datum löschen, wird immer mit rangehängt
-            this.uns_data = System.IO.File.ReadAllLines(this.pfad).ToList();
-            // Herausfiltern der Informationen
-            for (int i = 0; i < this.uns_data.Count; i++)
+            try
             {
-                if (this.uns_data[i].Contains(">:"))
+                this.uns_data = System.IO.File.ReadAllLines(this.pfad).ToList();
+                // Herausfiltern der Informationen
+                for (int i = 0; i < this.uns_data.Count; i++)
                 {
-                    this.sort_data.Add(this.uns_data[i + 1]);
+                    if (this.uns_data[i].Contains(">:"))
+                    {
+                        this.sort_data.Add(this.uns_data[i + 1]);
+                    }
+                }
+                // Sortieren Zeit <-> Position
+                for (int i = 0; i < this.sort_data.Count; i++)
+                {
+                    List<string> temp_list = new List<string>(this.sort_data[i].Split(new char[] { '/', 'E' }, StringSplitOptions.RemoveEmptyEntries));
+                    // ZeitString Formatieren
+                    temp_list[0] = temp_list[0].Insert(2, ":");
+                    temp_list[0] = temp_list[0].Insert(5, ":");
+                    temp_list[0] = temp_list[0].Remove(8);
+                    // ZeitString in informationsliste übertragen
+                    this.Time.Add(temp_list[0]);
+                    // DatenString in informationsliste übertragen
+                    this.Raw_Position.Add(temp_list[1]);
+                }
+                // decodieren des DatenStrings
+                for (int i = 0; i < this.Raw_Position.Count; i++)
+                {
+                    double lat = (double)(90 - ((this.Raw_Position[i][0] - 33) * Math.Pow(91, 3) + (this.Raw_Position[i][1] - 33) * Math.Pow(91, 2) + (this.Raw_Position[i][2] - 33) * 91 + (this.Raw_Position[i][3] - 33)) / 380926);
+                    this.Lat.Add(lat);
+                    double longd = (double)(-180 + ((this.Raw_Position[i][4] - 33) * Math.Pow(91, 3) + (this.Raw_Position[i][5] - 33) * Math.Pow(91, 2) + (this.Raw_Position[i][6] - 33) * 91 + this.Raw_Position[i][7] - 33) / 190463);
+                    this.Long.Add(longd);
                 }
             }
-            // Sortieren Zeit <-> Position
-            for (int i = 0; i < this.sort_data.Count; i++)
+            catch (Exception)
             {
-                List<string> temp_list = new List<string>(this.sort_data[i].Split(new char[] { '/', 'E' }, StringSplitOptions.RemoveEmptyEntries));
-                // ZeitString Formatieren
-                temp_list[0] = temp_list[0].Insert(2, ":");
-                temp_list[0] = temp_list[0].Insert(5, ":");
-                temp_list[0] = temp_list[0].Remove(8);
-                // ZeitString in informationsliste übertragen
-                this.Time.Add(temp_list[0]);
-                // DatenString in informationsliste übertragen
-                this.Raw_Position.Add(temp_list[1]);
+                System.Windows.MessageBox.Show("fehler beim Öffnen der Log-Datei");
             }
-            // decodieren des DatenStrings
-            for (int i = 0; i < this.Raw_Position.Count; i++)
-            {
-                double lat = (double)(90 - ((this.Raw_Position[i][0] - 33) * Math.Pow(91, 3) + (this.Raw_Position[i][1] - 33) * Math.Pow(91, 2) + (this.Raw_Position[i][2] - 33) * 91 + (this.Raw_Position[i][3] - 33)) / 380926);
-                this.Lat.Add(lat);
-                double longd = (double)(-180 + ((this.Raw_Position[i][4] - 33) * Math.Pow(91, 3) + (this.Raw_Position[i][5] - 33) * Math.Pow(91, 2) + (this.Raw_Position[i][6] - 33) * 91 + this.Raw_Position[i][7] - 33) / 190463);
-                this.Long.Add(longd);
-            }
+            
         }
 
         internal List<LiveDatum> ToDatalist()

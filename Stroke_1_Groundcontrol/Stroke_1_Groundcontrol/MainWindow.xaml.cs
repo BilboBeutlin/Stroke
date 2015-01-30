@@ -161,12 +161,85 @@ namespace Stroke_1_Groundcontrol
             this.TextBox_v0_calc.Text = this.calculator.result.v0.ToString("f");
         }
 
+        /// <summary>
+        /// Trifft auswahl, welche daten angezeigt werden und gibt diese Vorauswahl an die anzeigefunktion "showAll" weiter
+        /// </summary>
+        private void ShowToGrid()
+        {
+            DataTable cleartable = new DataTable();
+            this.DataGrid_LiveData.ItemsSource = cleartable.DefaultView;
+            if (this.Radiobutton_ShowInternet.IsChecked == true)
+            {
+                if (liveFromHtml.length > 0)
+                {
+                    showAll(true);
+                }
+            }
+            else if (this.Radiobutton_ShowLog.IsChecked == true)
+            {
+                if (liveFromLog.length > 0)
+                {
+                    showAll(false);
+                }
+            }
+        }
+
+        /// <summary>
+        /// liest die daten aus der LiveData-Klasse aus und zeigt diese auf dem DataGrid
+        /// </summary>
+        /// <param name="ShowInternet">true -> zeige daten aus dem Internet; 
+        /// false -> zeige Daten von der Log-Datei</param>
+        private void showAll(bool ShowInternet)
+        {
+            this.DataGrid_LiveData.Columns.Clear();
+            String[,] show;
+            if (ShowInternet)
+            {
+                show = liveFromHtml.DatalistToStringArray();
+            }
+            else
+            {
+                show = liveFromLog.DatalistToStringArray();
+            }
+            DataTable tempTable = new DataTable();
+            DataColumn col = new DataColumn("nr", typeof(int));
+            col.ReadOnly = true;
+            tempTable.Columns.Add(col);
+            col = new DataColumn("time", typeof(string));
+            col.ReadOnly = true;
+            tempTable.Columns.Add(col);
+            col = new DataColumn("lat", typeof(string));
+            col.ReadOnly = true;
+            tempTable.Columns.Add(col);
+            col = new DataColumn("lon", typeof(string));
+            col.ReadOnly = true;
+            tempTable.Columns.Add(col);
+            col = new DataColumn("alt", typeof(string));
+            col.ReadOnly = true;
+            tempTable.Columns.Add(col);
+
+            for (int Zeile = 0; Zeile < show.GetLength(0); Zeile++)
+            {
+                DataRow row;
+                row = tempTable.NewRow();
+                row[0] = Zeile;
+                row[1] = show[Zeile, 0];
+                row[2] = show[Zeile, 1];
+                row[3] = show[Zeile, 2];
+                row[4] = show[Zeile, 3];
+                tempTable.Rows.Add(row);
+
+            }
+            //Spalten Zuweisen
+            this.DataGrid_LiveData.ItemsSource = tempTable.DefaultView;
+        }
+
         #endregion
 
         #region input Events
 
         /// <summary>
-        /// Wechsel der Anwahl des RadioButton
+        /// Wechsel der Anwahl des RadioButton für den Rechner
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -226,21 +299,74 @@ namespace Stroke_1_Groundcontrol
             this.label_BrowserStatus.Content = "loading";
         }
 
+        /// <summary>
+        /// Browserfenster geladen, löschen der statusanzeige
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BrowserLoadingCompleted(object sender, NavigationEventArgs e)
         {
             this.label_BrowserStatus.Content = "";
+        }
+
+        /// <summary>
+        /// Speichert, welche date gelesen werden sollen und speichert das für den nächsten Prgrammstart
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Cahnge_CheckBox_toRead(object sender, RoutedEventArgs e)
+        {
+            if (this.Checkbox_ReadFromInternet.IsChecked == true)
+            {
+                this.allSetup.readHtml = true;
+            }
+            if (this.Checkbox_ReadFromInternet.IsChecked == false)
+            {
+                this.allSetup.readHtml = false;
+            }
+            if (this.CheckBox_ReadFromLog.IsChecked == true)
+            {
+                this.allSetup.readLog = true;
+            }
+            if (this.CheckBox_ReadFromLog.IsChecked == false)
+            {
+                this.allSetup.readLog = false;
+            }
+            this.allSetup.save();
+
+        }
+
+        /// <summary>
+        /// Radiobutton wurde geändert, welcher die anzuzeigenden daten angibt.
+        /// wirkung: aktualisieren des DataGrid
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Radiobutton_Schowdata_Cange(object sender, RoutedEventArgs e)
+        {
+            ShowToGrid();
         }
 
         #endregion
 
         #region Button Events
 
+        /// <summary>
+        /// Button -> Browser Aktualisieren
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button_BrowserRefresh_Click(object sender, RoutedEventArgs e)
         {
             this.StockeBrowser.Refresh();
             this.label_BrowserStatus.Content = "loading";
         }
 
+        /// <summary>
+        /// Button -> Einstellungen Übernehmen
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CkeckEditSetup(object sender, RoutedEventArgs e)
         {
             this.EditSetup();
@@ -339,8 +465,6 @@ namespace Stroke_1_Groundcontrol
             this.refreshResults();
         }
 
-
-
         /// <summary>
         /// Button -> Editieren der Konstanten
         /// </summary>
@@ -376,103 +500,19 @@ namespace Stroke_1_Groundcontrol
             this.EditSetup();
         }
 
-        #endregion
-
-        private void Radiobutton_Schowdata_Cange(object sender, RoutedEventArgs e)
-        {
-            ShowToGrid();
-        }
-
-        private void ShowToGrid()
-        {
-            if (this.Radiobutton_ShowInternet.IsChecked == true)
-            {
-                if (liveFromHtml.length > 0)
-                {
-                    showAll(true);
-                }
-            }
-            else if (this.Radiobutton_ShowLog.IsChecked == true)
-            {
-                if (liveFromLog.length > 0)
-                {
-                    showAll(false);
-                }
-            }
-        }
-
-        private void showAll(bool ShowInternet)
-        {
-            this.DataGrid_LiveData.Columns.Clear();
-            String[,] show;
-            if (ShowInternet)
-            {
-                show = liveFromHtml.DatalistToStringArray();
-            }
-            else
-            {
-                show = liveFromLog.DatalistToStringArray();
-            }
-            DataTable blubb = new DataTable();
-            DataColumn col = new DataColumn("nr", typeof(int));
-            col.ReadOnly = true;
-            blubb.Columns.Add(col);
-            col = new DataColumn("time", typeof(string));
-            col.ReadOnly = true;
-            blubb.Columns.Add(col);
-            col = new DataColumn("lat", typeof(string));
-            col.ReadOnly = true;
-            blubb.Columns.Add(col);
-            col = new DataColumn("lon", typeof(string));
-            col.ReadOnly = true;
-            blubb.Columns.Add(col);
-            col = new DataColumn("alt", typeof(string));
-            col.ReadOnly = true;
-            blubb.Columns.Add(col);
-            
-            for (int Zeile = 0; Zeile < show.GetLength(0); Zeile++)
-            {
-                DataRow row;
-                row = blubb.NewRow();
-                row[0] = Zeile;
-                row[1] = show[Zeile, 0];
-                row[2] = show[Zeile, 1];
-                row[3] = show[Zeile, 2];
-                row[4] = show[Zeile, 3];
-                blubb.Rows.Add(row);
-                
-            }
-            //Spalten Zuweisen
-            this.DataGrid_LiveData.ItemsSource = blubb.DefaultView;
-        }
-
-        private void Cahnge_CheckBox_toRead(object sender, RoutedEventArgs e)
-        {
-            if(this.Checkbox_ReadFromInternet.IsChecked == true)
-            {
-                this.allSetup.readHtml = true;
-            }
-            if (this.Checkbox_ReadFromInternet.IsChecked == false)
-            {
-                this.allSetup.readHtml = false;
-            }
-            if (this.CheckBox_ReadFromLog.IsChecked == true)
-            {
-                this.allSetup.readLog = true;
-            }
-            if (this.CheckBox_ReadFromLog.IsChecked == false)
-            {
-                this.allSetup.readLog = false;
-            }
-            this.allSetup.save();
-
-        }
-
+        /// <summary>
+        /// Button-Click-Event zum übernehmen und abspeichern der zu lesenden Internetseite
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click_CheckEditSetup_Url(object sender, RoutedEventArgs e)
         {
             this.allSetup.Link = this.TextBox_HtmlToRead.Text;
             this.allSetup.save();
             this.liveFromHtml.PfadOrLink = this.TextBox_HtmlToRead.Text;
         }
+
+        #endregion
+
     }
 }
