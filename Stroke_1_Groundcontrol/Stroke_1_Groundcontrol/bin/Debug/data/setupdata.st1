@@ -3,7 +3,7 @@
 # LanguageNr #
 1
 # Pfad to Logfile #
-C:\Users\Dennis\Desktop\decode_aprs_short_henry\decode_aprs_short\uiview.TXT
+C:\Users\Dennis\Dropbox\Mechatronik Projekt\Team Meetings\Meeting_04_30_01_2015\Programm_Team2\20150130 - Kopie.TXT
 # Internetseite mit Daten #
 https://dl.dropboxusercontent.com/u/45746485/Roh-Pakete%20von%20KD4BFP-8%20%E2%80%93%20Google%20Maps%20APRS.htm
 # Aktualisierungszeit, minuten #
@@ -11,6 +11,6 @@ https://dl.dropboxusercontent.com/u/45746485/Roh-Pakete%20von%20KD4BFP-8%20%E2%8
 # Aktualisierungszeit, Sekunden #
 15
 # Lesen Logdaten #
-False
-# Lesen vom Internet #
 True
+# Lesen vom Internet #
+False

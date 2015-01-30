@@ -36,11 +36,12 @@ namespace Stroke_1_ClassLibrary
     }
     public class LiveData
     {
-        List<LiveDatum> Datalist;
+        List<LiveDatum> _Datalist;
         public string PfadOrLink;    //Quellpfad
         private bool InterpreteHtml;
         private bool InterpreteLog;
-        public int length { get { return this.Datalist.Count; } }
+        public int length { get { return this._Datalist.Count; } }
+        public LiveDatum[] DatatArray { get { return this._Datalist.ToArray(); } }
 
         /// <summary>
         /// erstellt eine Instanz der Klsaae Live Data.
@@ -49,7 +50,7 @@ namespace Stroke_1_ClassLibrary
         /// LOG = Interpretiert eine hinterlegte Logdatei</param>
         public LiveData(string Input)
         {
-            this.Datalist = new List<LiveDatum>();
+            this._Datalist = new List<LiveDatum>();
             if ((Input == "Html") | (Input == "html") | (Input == "HTML"))
             {
                 this.InterpreteHtml = true;
@@ -69,7 +70,7 @@ namespace Stroke_1_ClassLibrary
 
         public void AddData(LiveDatum datum)
         {
-            Datalist.Add(datum);
+            _Datalist.Add(datum);
         }
 
         public void AddData(double longitude,double latitude,double altitude,DateTime time)
@@ -79,27 +80,27 @@ namespace Stroke_1_ClassLibrary
             tempdate.latitude = latitude;
             tempdate.altitude = altitude;
             tempdate.time = time;
-            Datalist.Add(tempdate);
+            _Datalist.Add(tempdate);
         }
 
         public void DelDatum(int index)
         {
-            Datalist.RemoveAt(index);
+            _Datalist.RemoveAt(index);
         }
 
         public void ClearData()
         {
-            Datalist.Clear();
+            _Datalist.Clear();
         }
 
         public string[,] DatalistToStringArray()
         {
-            if (this.Datalist.Count <= 0) return null;
-            string[,] tempstring = new string[this.Datalist.Count, this.Datalist.ElementAt(0).numberOfValue];
-            for (int i = 0; i < this.Datalist.Count; i++)
+            if (this._Datalist.Count <= 0) return null;
+            string[,] tempstring = new string[this._Datalist.Count, this._Datalist.ElementAt(0).numberOfValue];
+            for (int i = 0; i < this._Datalist.Count; i++)
             {
-                string[] temp = this.Datalist.ElementAt(i).ToStringArray();
-                for (int j = 0; j < this.Datalist.ElementAt(0).numberOfValue; j++)
+                string[] temp = this._Datalist.ElementAt(i).ToStringArray();
+                for (int j = 0; j < this._Datalist.ElementAt(0).numberOfValue; j++)
                 {
                     tempstring[i, j] = temp[j];
                 }
@@ -116,21 +117,21 @@ namespace Stroke_1_ClassLibrary
             if (InterpreteHtml)
             {
                 HtmlReader reader = new HtmlReader(this.PfadOrLink);
-                if (this.Datalist.Count <= 0)
+                if (this._Datalist.Count <= 0)
                 {
-                    this.Datalist = reader._data.Datalist;
+                    this._Datalist = reader._data._Datalist;
                 }
                 else
                 {
-                    this.Insert(reader._data.Datalist);
+                    this.Insert(reader._data._Datalist);
                 }
             }
             if (InterpreteLog)
             {
                 aprs reader = new aprs(this.PfadOrLink);
-                if (this.Datalist.Count <= 0)
+                if (this._Datalist.Count <= 0)
                 {
-                    this.Datalist = reader.ToDatalist();
+                    this._Datalist = reader.ToDatalist();
                 }
                 else
                 {
@@ -144,9 +145,9 @@ namespace Stroke_1_ClassLibrary
             for (int i = 0; i < list.Count; i++)
             {
                 bool found = false;
-                for (int j = 0; j < this.Datalist.Count ; j++)
+                for (int j = 0; j < this._Datalist.Count ; j++)
                 {
-                    if (list[i].time == this.Datalist[j].time)
+                    if (list[i].time == this._Datalist[j].time)
                     {
                         found = true;
                         break;
@@ -154,7 +155,7 @@ namespace Stroke_1_ClassLibrary
                 }
                 if (!found)
                 {
-                    this.Datalist.Add(list[i]);
+                    this._Datalist.Add(list[i]);
                 }
             }
         }

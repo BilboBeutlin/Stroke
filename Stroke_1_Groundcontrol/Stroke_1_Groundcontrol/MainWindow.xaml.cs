@@ -58,6 +58,8 @@ namespace Stroke_1_Groundcontrol
             if (this.Checkbox_ReadFromInternet.IsChecked == true)
             {
                 liveFromHtml.Read();
+                //DataToPolyline blubb = new DataToPolyline(5, 5, 5, 5, 100, 50);
+                //List<Polyline> blubb2 = blubb.Createlines(liveFromHtml, 0);
                 ShowToGrid();
             }
             if (this.CheckBox_ReadFromLog.IsChecked == true)

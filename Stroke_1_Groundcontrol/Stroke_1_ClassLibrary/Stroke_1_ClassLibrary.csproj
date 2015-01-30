@@ -35,6 +35,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
@@ -44,6 +45,7 @@
     <Compile Include="Data.cs" />
     <Compile Include="Calculator.cs" />
     <Compile Include="DataExternLogReader.cs" />
+    <Compile Include="DataToPolyline.cs" />
     <Compile Include="HtmlReader.cs" />
     <Compile Include="LiveData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

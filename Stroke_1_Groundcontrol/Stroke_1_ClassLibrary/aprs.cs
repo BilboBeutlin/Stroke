@@ -51,10 +51,10 @@ namespace Stroke_1_ClassLibrary
                         this.sort_data.Add(this.uns_data[i + 1]);
                     }
                 }
-                // Sortieren Zeit <-> Position
+                // Sortieren Zeit <-> PositionC:\Users\Dennis\Documents\GitHub\Stroke\Stroke_1_Groundcontrol\Stroke_1_ClassLibrary\aprs.cs
                 for (int i = 0; i < this.sort_data.Count; i++)
                 {
-                    List<string> temp_list = new List<string>(this.sort_data[i].Split(new char[] { '/', 'E' }, StringSplitOptions.RemoveEmptyEntries));
+                    List<string> temp_list = new List<string>(this.sort_data[i].Split(new char[] { '/'}, StringSplitOptions.RemoveEmptyEntries));
                     // ZeitString Formatieren
                     temp_list[0] = temp_list[0].Insert(2, ":");
                     temp_list[0] = temp_list[0].Insert(5, ":");
@@ -67,9 +67,9 @@ namespace Stroke_1_ClassLibrary
                 // decodieren des DatenStrings
                 for (int i = 0; i < this.Raw_Position.Count; i++)
                 {
-                    double lat = (double)(90 - ((this.Raw_Position[i][0] - 33) * Math.Pow(91, 3) + (this.Raw_Position[i][1] - 33) * Math.Pow(91, 2) + (this.Raw_Position[i][2] - 33) * 91 + (this.Raw_Position[i][3] - 33)) / 380926);
+                    double lat = (double)(90 - ((Convert.ToByte(this.Raw_Position[i][0]) - 33.0) * Math.Pow(91, 3) + (Convert.ToByte(this.Raw_Position[i][1]) - 33.0) * Math.Pow(91, 2) + (Convert.ToByte(this.Raw_Position[i][2]) - 33.0) * 91 + (Convert.ToByte(this.Raw_Position[i][3]) - 33.0)) / 380926);
                     this.Lat.Add(lat);
-                    double longd = (double)(-180 + ((this.Raw_Position[i][4] - 33) * Math.Pow(91, 3) + (this.Raw_Position[i][5] - 33) * Math.Pow(91, 2) + (this.Raw_Position[i][6] - 33) * 91 + this.Raw_Position[i][7] - 33) / 190463);
+                    double longd = (double)(-180 + ((Convert.ToByte(this.Raw_Position[i][4]) - 33.0) * Math.Pow(91, 3) + (Convert.ToByte(this.Raw_Position[i][5]) - 33.0) * Math.Pow(91, 2) + (Convert.ToByte(this.Raw_Position[i][6]) - 33.0) * 91 + Convert.ToByte(this.Raw_Position[i][7]) - 33.0) / 190463);
                     this.Long.Add(longd);
                 }
             }
